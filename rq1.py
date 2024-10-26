@@ -33,6 +33,7 @@ def getDevEmailForCommit(repo_path_param, hash_):
         pass
     return author_emails  
 
+
 def getDevEmails(full_path_to_repo, branchName='master'):
     repo_emails = []
     all_commits = []
