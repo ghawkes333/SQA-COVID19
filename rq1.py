@@ -11,6 +11,7 @@ from git import Repo
 from git import exc 
 import subprocess
 
+
 def getDevEmailForCommit(repo_path_param, hash_):
     author_emails = []
 
